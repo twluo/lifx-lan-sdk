@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1879498B1B4320CB006A6DA4 /* lifx-sdk.c in Sources */ = {isa = PBXBuildFile; fileRef = 1879498A1B4320CB006A6DA4 /* lifx-sdk.c */; };
+		187949951B434748006A6DA4 /* lifx-light-container.h in Headers */ = {isa = PBXBuildFile; fileRef = 187949931B434748006A6DA4 /* lifx-light-container.h */; };
+		187949961B434748006A6DA4 /* lifx-light.h in Headers */ = {isa = PBXBuildFile; fileRef = 187949941B434748006A6DA4 /* lifx-light.h */; };
+		18794A061B434EC1006A6DA4 /* lifx-udp.c in Sources */ = {isa = PBXBuildFile; fileRef = 18794A051B434EC1006A6DA4 /* lifx-udp.c */; };
+		18794A081B4368D0006A6DA4 /* lifx-light.c in Sources */ = {isa = PBXBuildFile; fileRef = 18794A071B4368D0006A6DA4 /* lifx-light.c */; };
+		18794A0A1B436A97006A6DA4 /* lifx-light-container.c in Sources */ = {isa = PBXBuildFile; fileRef = 18794A091B436A97006A6DA4 /* lifx-light-container.c */; };
+		18F765111B68149300085135 /* frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F7650D1B68149300085135 /* frame.h */; };
+		18F765121B68149300085135 /* protocol_sizes.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F7650E1B68149300085135 /* protocol_sizes.h */; };
+		18F765131B68149300085135 /* protocol_type.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F7650F1B68149300085135 /* protocol_type.h */; };
+		18F765141B68149300085135 /* protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F765101B68149300085135 /* protocol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1879496D1B43208A006A6DA4 /* liblifx-sdk-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblifx-sdk-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187949891B4320BF006A6DA4 /* lifx-sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lifx-sdk.h"; sourceTree = "<group>"; };
+		1879498A1B4320CB006A6DA4 /* lifx-sdk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "lifx-sdk.c"; sourceTree = "<group>"; };
+		187949931B434748006A6DA4 /* lifx-light-container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lifx-light-container.h"; sourceTree = "<group>"; };
+		187949941B434748006A6DA4 /* lifx-light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lifx-light.h"; sourceTree = "<group>"; };
+		18794A041B434EAC006A6DA4 /* lifx-udp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lifx-udp.h"; sourceTree = "<group>"; };
+		18794A051B434EC1006A6DA4 /* lifx-udp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "lifx-udp.c"; sourceTree = "<group>"; };
+		18794A071B4368D0006A6DA4 /* lifx-light.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "lifx-light.c"; sourceTree = "<group>"; };
+		18794A091B436A97006A6DA4 /* lifx-light-container.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "lifx-light-container.c"; sourceTree = "<group>"; };
+		18F7650D1B68149300085135 /* frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frame.h; sourceTree = "<group>"; };
+		18F7650E1B68149300085135 /* protocol_sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocol_sizes.h; sourceTree = "<group>"; };
+		18F7650F1B68149300085135 /* protocol_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocol_type.h; sourceTree = "<group>"; };
+		18F765101B68149300085135 /* protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1879496A1B43208A006A6DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187949641B43208A006A6DA4 = {
+			isa = PBXGroup;
+			children = (
+				18F7650D1B68149300085135 /* frame.h */,
+				18F7650E1B68149300085135 /* protocol_sizes.h */,
+				18F7650F1B68149300085135 /* protocol_type.h */,
+				18F765101B68149300085135 /* protocol.h */,
+				187949931B434748006A6DA4 /* lifx-light-container.h */,
+				18794A091B436A97006A6DA4 /* lifx-light-container.c */,
+				18794A051B434EC1006A6DA4 /* lifx-udp.c */,
+				18794A041B434EAC006A6DA4 /* lifx-udp.h */,
+				18794A071B4368D0006A6DA4 /* lifx-light.c */,
+				187949941B434748006A6DA4 /* lifx-light.h */,
+				1879498A1B4320CB006A6DA4 /* lifx-sdk.c */,
+				187949891B4320BF006A6DA4 /* lifx-sdk.h */,
+				1879496E1B43208A006A6DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1879496E1B43208A006A6DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1879496D1B43208A006A6DA4 /* liblifx-sdk-lib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1879496B1B43208A006A6DA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F765111B68149300085135 /* frame.h in Headers */,
+				18F765121B68149300085135 /* protocol_sizes.h in Headers */,
+				187949961B434748006A6DA4 /* lifx-light.h in Headers */,
+				18F765131B68149300085135 /* protocol_type.h in Headers */,
+				18F765141B68149300085135 /* protocol.h in Headers */,
+				187949951B434748006A6DA4 /* lifx-light-container.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1879496C1B43208A006A6DA4 /* lifx-sdk-lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187949711B43208A006A6DA4 /* Build configuration list for PBXNativeTarget "lifx-sdk-lib" */;
+			buildPhases = (
+				187949691B43208A006A6DA4 /* Sources */,
+				1879496A1B43208A006A6DA4 /* Frameworks */,
+				1879496B1B43208A006A6DA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lifx-sdk-lib";
+			productName = "lifx-sdk-lib";
+			productReference = 1879496D1B43208A006A6DA4 /* liblifx-sdk-lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187949651B43208A006A6DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LIFX;
+			};
+			buildConfigurationList = 187949681B43208A006A6DA4 /* Build configuration list for PBXProject "lifx-sdk-lib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 187949641B43208A006A6DA4;
+			productRefGroup = 1879496E1B43208A006A6DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1879496C1B43208A006A6DA4 /* lifx-sdk-lib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187949691B43208A006A6DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18794A081B4368D0006A6DA4 /* lifx-light.c in Sources */,
+				18794A061B434EC1006A6DA4 /* lifx-udp.c in Sources */,
+				1879498B1B4320CB006A6DA4 /* lifx-sdk.c in Sources */,
+				18794A0A1B436A97006A6DA4 /* lifx-light-container.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1879496F1B43208A006A6DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		187949701B43208A006A6DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		187949721B43208A006A6DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		187949731B43208A006A6DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187949681B43208A006A6DA4 /* Build configuration list for PBXProject "lifx-sdk-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1879496F1B43208A006A6DA4 /* Debug */,
+				187949701B43208A006A6DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187949711B43208A006A6DA4 /* Build configuration list for PBXNativeTarget "lifx-sdk-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187949721B43208A006A6DA4 /* Debug */,
+				187949731B43208A006A6DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187949651B43208A006A6DA4 /* Project object */;
+}

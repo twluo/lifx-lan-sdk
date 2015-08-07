@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DAE0DB1B438A1300CFB0EA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DAE0D91B438A1300CFB0EA /* main.c */; };
+		18DAE0DE1B4EF2AD00CFB0EA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DAE0DD1B4EF2AD00CFB0EA /* CoreFoundation.framework */; };
+		192940DC1B44A1C800A3070E /* liblifx-sdk-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 192940DA1B44A1C000A3070E /* liblifx-sdk-lib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1879497B1B4320AC006A6DA4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1879497D1B4320AC006A6DA4 /* SDKTester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDKTester; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DAE0D91B438A1300CFB0EA /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = SOURCE_ROOT; };
+		18DAE0DA1B438A1300CFB0EA /* SDKTester.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = SDKTester.1; sourceTree = SOURCE_ROOT; };
+		18DAE0DD1B4EF2AD00CFB0EA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		192940DA1B44A1C000A3070E /* liblifx-sdk-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liblifx-sdk-lib.a"; path = "../../../Library/Developer/Xcode/DerivedData/sdkWorkspace-ddnumitmtvyriwgsougosvhhqiwx/Build/Products/Debug/liblifx-sdk-lib.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1879497A1B4320AC006A6DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DAE0DE1B4EF2AD00CFB0EA /* CoreFoundation.framework in Frameworks */,
+				192940DC1B44A1C800A3070E /* liblifx-sdk-lib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187949741B4320AC006A6DA4 = {
+			isa = PBXGroup;
+			children = (
+				18DAE0DD1B4EF2AD00CFB0EA /* CoreFoundation.framework */,
+				192940DA1B44A1C000A3070E /* liblifx-sdk-lib.a */,
+				1879497F1B4320AC006A6DA4 /* SDKTester */,
+				1879497E1B4320AC006A6DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1879497E1B4320AC006A6DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1879497D1B4320AC006A6DA4 /* SDKTester */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1879497F1B4320AC006A6DA4 /* SDKTester */ = {
+			isa = PBXGroup;
+			children = (
+				18DAE0D91B438A1300CFB0EA /* main.c */,
+				18DAE0DA1B438A1300CFB0EA /* SDKTester.1 */,
+			);
+			path = SDKTester;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1879497C1B4320AC006A6DA4 /* SDKTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187949861B4320AC006A6DA4 /* Build configuration list for PBXNativeTarget "SDKTester" */;
+			buildPhases = (
+				187949791B4320AC006A6DA4 /* Sources */,
+				1879497A1B4320AC006A6DA4 /* Frameworks */,
+				1879497B1B4320AC006A6DA4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKTester;
+			productName = SDKTester;
+			productReference = 1879497D1B4320AC006A6DA4 /* SDKTester */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187949751B4320AC006A6DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LIFX;
+			};
+			buildConfigurationList = 187949781B4320AC006A6DA4 /* Build configuration list for PBXProject "SDKTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 187949741B4320AC006A6DA4;
+			productRefGroup = 1879497E1B4320AC006A6DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1879497C1B4320AC006A6DA4 /* SDKTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187949791B4320AC006A6DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DAE0DB1B438A1300CFB0EA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		187949841B4320AC006A6DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		187949851B4320AC006A6DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		187949871B4320AC006A6DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = ansi;
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SDKWorkspace-eivvlhihjlhcezgvpqahmniyjbfb/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SDKWorkspace-gpzpcdydvstlqufhwwvjdhqgsrru/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/sdkWorkspace-ddnumitmtvyriwgsougosvhhqiwx/Build/Products/Debug",
+				);
+				PRELINK_LIBS = "liblifx-sdk-lib.a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../lifx-sdk-lib";
+			};
+			name = Debug;
+		};
+		187949881B4320AC006A6DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = ansi;
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SDKWorkspace-eivvlhihjlhcezgvpqahmniyjbfb/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SDKWorkspace-gpzpcdydvstlqufhwwvjdhqgsrru/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/sdkWorkspace-ddnumitmtvyriwgsougosvhhqiwx/Build/Products/Debug",
+				);
+				PRELINK_LIBS = "liblifx-sdk-lib.a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../lifx-sdk-lib";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187949781B4320AC006A6DA4 /* Build configuration list for PBXProject "SDKTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187949841B4320AC006A6DA4 /* Debug */,
+				187949851B4320AC006A6DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187949861B4320AC006A6DA4 /* Build configuration list for PBXNativeTarget "SDKTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187949871B4320AC006A6DA4 /* Debug */,
+				187949881B4320AC006A6DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187949751B4320AC006A6DA4 /* Project object */;
+}
